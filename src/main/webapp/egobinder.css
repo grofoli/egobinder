@@ -1,0 +1,255 @@
+body
+{
+    background-color: #E0E0E0;
+    margin:0;
+    height:100%;
+}
+
+h1
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: #777777;
+    margin: 20px;
+    text-align: center;
+}
+
+#login, #page
+{
+    background:-moz-linear-gradient(top, #fff, #E0E0E0); /* Firefox */
+    background:-webkit-linear-gradient(top, #fff, #E0E0E0); /* Safari, Chrome */
+    background:-o-linear-gradient(top #fff, #E0E0E0); /* Opera */
+    background:-ms-linear-gradient(top, #fff, #E0E0E0); /* IE 10 */
+    background:linear-gradient(top, #fff, #E0E0E0); /* W3C Standard */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#E0E0E0'); /* IE 6-9 */
+    padding: 0px;
+}
+
+#container
+{
+    background:-moz-linear-gradient(top, #fff, #adf); /* Firefox */
+    background:-webkit-linear-gradient(top, #fff, #adf); /* Safari, Chrome */
+    background:-o-linear-gradient(top #fff, #adf); /* Opera */
+    background:-ms-linear-gradient(top, #fff, #adf); /* IE 10 */
+    background:linear-gradient(top, #fff, #adf); /* W3C Standard */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#aaddff'); /* IE 6-9 */
+}
+
+/* Styles for login page */
+#login #container
+{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+#loginContent {
+    float: left;
+    text-align: right;
+    width: 644px;
+}
+
+#loginPanel {
+    float: right;
+    width: 356px;
+}
+
+#loginMessage {
+    font-size: 10pt;
+    color: #BD0003;
+}
+
+#page
+{
+    height:100%;
+    min-height:100%;
+    position:relative;
+   /* padding-bottom: 60px;  */
+}
+
+#main
+{
+}
+
+/* Styles for main page */
+#main #container
+{
+    height: 200px;
+}
+
+#main #container2
+{
+    overflow: auto;
+}
+
+#footerPanel
+{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #333333;
+
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#headerPanel
+{
+    height: 0px;
+}
+
+#controlPanel
+{
+    float: right;
+    height: 45px;
+    width: 240px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+#header-logo
+{
+    float: left;
+    text-align: left;
+    width: 100px;
+    padding-top: 30px;
+    height: 170px;
+}
+
+#searchPanel
+{
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+#resultPanel
+{
+    margin: 0 auto;
+}
+.label
+{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+.inputField
+{
+    height:25px;
+    width:150px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #777777;
+}
+
+.label_user {
+    font-size: 13px;
+    font-weight: bold;
+    color: #312ab8;
+    padding-right: 20px;
+}
+
+.sendButton {
+    display: block;
+    font-size: 16pt;
+}
+
+.gwt-Anchor
+{
+    font-weight: bold;
+}
+
+.gwt-Anchor:link {}
+.gwt-Anchor:visited {}
+.gwt-Anchor:hover {
+text-decoration:none;
+}
+.gwt-Anchor:active {}
+
+
+.gwt-Button
+{
+    display: block;
+    font-size: 16pt;
+    padding: 5px;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+    width: 400px;
+}
+
+.dialogVPanel {
+    margin: 5px;
+}
+
+.serverResponseLabelError {
+    color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+    margin: 15px 6px 6px;
+}
+
+/* Formatting specific to the StockWatcher application */
+
+
+/* stock list header row */
+.watchListHeader {
+    background-color: #2062B8;
+    color: white;
+    font-style: italic;
+}
+
+/* stock list flex table */
+.watchList {
+    border: 1px solid silver;
+    padding: 2px;
+    margin-bottom:6px;
+}
+
+/* stock list Price and Change fields */
+.watchListNumericColumn {
+    text-align: right;
+    width:8em;
+}
+
+/* stock list Remove column */
+.watchListRemoveColumn {
+    text-align: center;
+}
+
+/* Add Stock panel */
+.addPanel {
+    margin: 10px 0px 15px 0px;
+}
+
+/* stock list, the Remove button */
+.gwt-Button-remove {
+    width: 50px;
+}
+
+/* Dynamic color changes for the Change field */
+.noChange {
+    color: black;
+}
+
+.positiveChange {
+    color: green;
+}
+
+.negativeChange {
+    color: red;
+}
+
+.errorMessage {
+    color: red;
+}
